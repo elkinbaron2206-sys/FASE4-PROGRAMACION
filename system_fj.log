@@ -1,1 +1,60 @@
+====================================================
+ SYSTEM FJ - REGISTRO DE EJECUCIÓN
+ Inicio: 2026-05-12 19:42:36
+====================================================
 
+[INFO] ClienteFJ creado: Andrés Morales
+[INFO] ClienteFJ registrado en el sistema
+
+[INFO] ClienteFJ creado: Daniela Rojas
+[INFO] ClienteFJ registrado en el sistema
+
+[INFO] ClienteFJ creado: Miguel Herrera
+[INFO] ClienteFJ registrado en el sistema
+
+[ERROR] Error al registrar cliente
+Detalle: correo ya existe en el sistema
+
+----------------------------------------------------
+
+[INFO] Servicio registrado: SalaReuniones
+[INFO] Servicio registrado: AlquilerEquipos
+[INFO] Servicio registrado: Consultoria
+
+----------------------------------------------------
+
+[INFO] Reserva creada (ID: RS01)
+Cliente: Andrés Morales - Servicio: SalaReuniones
+[INFO] Reserva confirmada
+
+[INFO] Reserva creada (ID: RS02)
+Cliente: Daniela Rojas - Servicio: AlquilerEquipos
+[INFO] Reserva confirmada
+
+[INFO] Reserva creada (ID: RS03)
+Cliente: Miguel Herrera - Servicio: Consultoria
+[WARNING] Reserva cancelada por el cliente
+
+----------------------------------------------------
+
+[ERROR] Operación inválida
+La reserva ya estaba confirmada anteriormente
+
+[ERROR] Error en parámetros
+Valores ingresados no son válidos
+
+[ERROR] Capacidad excedida
+No hay disponibilidad para el servicio solicitado
+
+----------------------------------------------------
+
+[WARNING] Servicio desactivado temporalmente
+
+[ERROR] No se pudo completar la reserva
+Servicio no disponible en este momento
+
+[INFO] Servicio activado nuevamente
+
+----------------------------------------------------
+
+[INFO] Ejecución completada correctamente
